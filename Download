@@ -1,0 +1,163 @@
+<html style="margin:0;padding:0;">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+(function(){
+  var s = document.createElement('style');
+  s.textContent = ':root{--bg:#fefcf8;--card:#ffffff;--text:#1a1a1a;--muted:#6b7280;--accent:#ee4d2d;--accent-soft:rgba(238,77,45,.12);--accent2:#16a34a;--accent2-soft:rgba(22,163,74,.12);--border:rgba(15,23,42,.08)}'
+    + '.reveal{opacity:0;transform:translateY(18px);animation:fu .55s ease forwards}'
+    + '.reveal:nth-child(2){animation-delay:.08s}.reveal:nth-child(3){animation-delay:.16s}.reveal:nth-child(4){animation-delay:.24s}.reveal:nth-child(5){animation-delay:.32s}.reveal:nth-child(6){animation-delay:.4s}'
+    + '@keyframes fu{to{opacity:1;transform:translateY(0)}}'
+    + '.svc{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}'
+    + '.svc:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(238,77,45,.14);border-color:var(--accent)}'
+    + '.wa-btn{transition:transform .15s ease,box-shadow .15s ease,background .15s ease}'
+    + '.wa-btn:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(22,163,74,.35)}'
+    + '.wa-btn:active{transform:translateY(0)}'
+    + '.pulse-dot{animation:pd 1.6s ease-in-out infinite}'
+    + '@keyframes pd{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.35)}}'
+    + '.hero-stripes{background-image:repeating-linear-gradient(115deg,rgba(255,255,255,.08) 0 14px,transparent 14px 28px)}';
+  document.head.appendChild(s);
+})();
+</script>
+<div style="background-color:transparent;box-sizing:border-box;">
+<div style="font-family:'Quicksand',sans-serif;background:var(--bg);color:var(--text);">
+<div class="max-w-xl mx-auto px-5 pt-6 pb-28">
+
+  <!-- HEADER / LOGO -->
+  <div class="reveal flex items-center justify-between mb-6">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <img src="https://p16-cc-image-search-sign-sg.ibyteimg.com/tos-alisg-i-h9hire4aei-sg/image/7d52caaef7b66d3f7711b6ec9b03a0e5~tplv-h9hire4aei-image.jpeg?rk3s=feb11e32&x-expires=1808051966&x-signature=l3R86DRNjsrLjQllfEe%2FXeg5Mw8%3D" alt="SPX Express Logo" loading="lazy" onerror="this.style.display='none'" style="height:38px;width:auto;border-radius:6px;">
+    </div>
+    <span style="display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--accent-soft);border:1px solid var(--accent);color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;">
+      <span class="pulse-dot" style="width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;"></span>
+      Agen Resmi
+    </span>
+  </div>
+
+  <!-- HERO -->
+  <div class="reveal rounded-3xl overflow-hidden mb-6" style="background:linear-gradient(135deg,#ee4d2d 0%,#ff7a45 55%,#ff9a3c 100%);position:relative;box-shadow:0 14px 40px rgba(238,77,45,.3);">
+    <div class="hero-stripes" style="position:absolute;inset:0;pointer-events:none;"></div>
+    <div style="position:relative;padding:30px 26px 28px;color:#fff;">
+      <p style="font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;opacity:.9;margin-bottom:8px;">Pergudangan &amp; Logistik</p>
+      <h1 style="font-size:30px;font-weight:700;line-height:1.15;margin:0 0 6px;">SPX Express<br>Denpasar Barat</h1>
+      <p style="font-size:16px;font-weight:600;opacity:.95;margin:0 0 18px;">Siap Melayani Anda</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <span style="padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);font-size:12px;font-weight:600;">Cepat</span>
+        <span style="padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);font-size:12px;font-weight:600;">Aman</span>
+        <span style="padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);font-size:12px;font-weight:600;">Terpercaya</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- LAYANAN -->
+  <div class="reveal mb-3">
+    <h2 style="font-size:18px;font-weight:700;margin:0 0 2px;">Pilih Layanan</h2>
+    <p style="font-size:13px;color:var(--muted);margin:0;">Tap layanan — langsung terhubung ke Admin via WhatsApp</p>
+  </div>
+
+  <div class="reveal grid grid-cols-1 sm:grid-cols-2 gap-3 mb-7">
+
+    <!-- Cek Resi -->
+    <a href="https://wa.me/6282374969863?text=Halo%20Admin%20SPX%20Express%20Denpasar%20Barat%2C%20saya%20mau%20cek%20resi%20paket.%20Terima%20kasih." target="_blank" rel="noopener" class="svc block rounded-2xl p-4 no-underline" style="background:var(--card);border:1px solid var(--border);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.05);">
+      <div style="width:40px;height:40px;border-radius:12px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);margin-bottom:10px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 16h6"/><path d="M21 8v8"/><circle cx="9" cy="9" r="6"/><path d="m13.5 13.5 5 5"/></svg>
+      </div>
+      <p style="font-size:15px;font-weight:700;margin:0 0 2px;">Cek Resi</p>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 10px;">Lacak paket Anda real-time</p>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent2);">Chat Admin
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </span>
+    </a>
+
+    <!-- Cek Paket -->
+    <a href="https://wa.me/6282374969863?text=Halo%20Admin%2C%20saya%20mau%20cek%20status%20paket%20saya.%20Terima%20kasih." target="_blank" rel="noopener" class="svc block rounded-2xl p-4 no-underline" style="background:var(--card);border:1px solid var(--border);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.05);">
+      <div style="width:40px;height:40px;border-radius:12px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);margin-bottom:10px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg>
+      </div>
+      <p style="font-size:15px;font-weight:700;margin:0 0 2px;">Cek Paket</p>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 10px;">Status &amp; estimasi sampai</p>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent2);">Chat Admin
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </span>
+    </a>
+
+    <!-- Return & Pickup -->
+    <a href="https://wa.me/6282374969863?text=Halo%20Admin%2C%20saya%20butuh%20layanan%20Return%20%26%20Pickup%20paket.%20Terima%20kasih." target="_blank" rel="noopener" class="svc block rounded-2xl p-4 no-underline" style="background:var(--card);border:1px solid var(--border);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.05);">
+      <div style="width:40px;height:40px;border-radius:12px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);margin-bottom:10px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+      </div>
+      <p style="font-size:15px;font-weight:700;margin:0 0 2px;">Return &amp; Pickup</p>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 10px;">Retur &amp; jemput paket</p>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent2);">Chat Admin
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </span>
+    </a>
+
+    <!-- Kendala Paket -->
+    <a href="https://wa.me/6282374969863?text=Halo%20Admin%2C%20saya%20ada%20kendala%20dengan%20paket%20saya%2C%20mohon%20bantuannya.%20Terima%20kasih." target="_blank" rel="noopener" class="svc block rounded-2xl p-4 no-underline" style="background:var(--card);border:1px solid var(--border);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.05);">
+      <div style="width:40px;height:40px;border-radius:12px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);margin-bottom:10px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h18"/><path d="M12 3a9 9 0 1 0 9 9"/><path d="M7.5 7.5 12 12l4-4"/></svg>
+      </div>
+      <p style="font-size:15px;font-weight:700;margin:0 0 2px;">Kendala Paket</p>
+      <p style="font-size:12px;color:var(--muted);margin:0 0 10px;">Komplain &amp; bantuan lainnya</p>
+      <span style="display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent2);">Chat Admin
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </span>
+    </a>
+  </div>
+
+  <!-- KONTAK & ALAMAT -->
+  <div class="reveal rounded-2xl p-5 mb-6" style="background:var(--card);border:1px solid var(--border);border-top:3px solid var(--accent);box-shadow:0 1px 3px rgba(0,0,0,.05);">
+    <h2 style="font-size:17px;font-weight:700;margin:0 0 14px;">Kontak &amp; Lokasi Agen</h2>
+
+    <div style="display:flex;gap:12px;margin-bottom:14px;">
+      <div style="width:36px;height:36px;border-radius:10px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);flex-shrink:0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div>
+      <div>
+        <p style="font-size:13px;font-weight:700;margin:0 0 2px;">Toko Ayu Cell — Agen SPX Express</p>
+        <p style="font-size:13px;color:var(--muted);margin:0;line-height:1.5;">Jl. Lc Penamparan Indah IIIA, Padangsambian,<br>Kec. Denpasar Bar., Kota Denpasar, Bali 80118</p>
+        <p style="font-size:12px;color:var(--muted);margin:4px 0 0;">Plus Code: 955Q+6R2</p>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;margin-bottom:14px;">
+      <div style="width:36px;height:36px;border-radius:10px;background:var(--accent2-soft);display:flex;align-items:center;justify-content:center;color:var(--accent2);flex-shrink:0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      </div>
+      <div>
+        <p style="font-size:13px;font-weight:700;margin:0 0 2px;">Hub Admin (WhatsApp)</p>
+        <a href="https://wa.me/6282374969863" target="_blank" rel="noopener" style="font-size:15px;font-weight:700;color:var(--accent2);text-decoration:none;">0823-7496-9863</a>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;">
+      <div style="width:36px;height:36px;border-radius:10px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);flex-shrink:0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      </div>
+      <div>
+        <p style="font-size:13px;font-weight:700;margin:0 0 2px;">Jam Operasional</p>
+        <p style="font-size:13px;color:var(--muted);margin:0;">Senin – Sabtu, 09.00 – 17.00 WITA</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="reveal text-center" style="padding-top:8px;">
+    <p style="font-size:11px;color:var(--muted);margin:0;line-height:1.6;">Agen Resmi SPX Express Denpasar Barat — Toko Ayu Cell<br>Melayani cek resi, cek paket, return &amp; pickup, dan kendala paket lainnya.</p>
+  </div>
+
+</div>
+
+<!-- STICKY WA CTA BAR -->
+<div style="position:sticky;bottom:14px;z-index:50;max-width:36rem;margin:0 auto;padding:0 20px;">
+  <a href="https://wa.me/6282374969863?text=Halo%20Admin%20SPX%20Express%20Denpasar%20Barat%2C%20saya%20butuh%20bantuan.%20Terima%20kasih." target="_blank" rel="noopener" class="wa-btn block no-underline" style="background:linear-gradient(135deg,#16a34a,#22c55e);color:#fff;border-radius:16px;padding:14px 20px;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 10px 30px rgba(22,163,74,.4);">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    <span style="font-size:16px;font-weight:700;">Chat Admin Sekarang</span>
+    <span class="pulse-dot" style="width:8px;height:8px;border-radius:50%;background:#fff;display:inline-block;"></span>
+  </a>
+</div>
+
+</div>
+</div>
+</html>
